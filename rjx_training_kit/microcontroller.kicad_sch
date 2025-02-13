@@ -2765,6 +2765,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 39.37) (xy 161.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65f13c4-cab9-4da3-95d5-901dce21914b")
+	)
+	(wire
+		(pts
 			(xy 100.33 135.89) (xy 107.95 135.89)
 		)
 		(stroke
@@ -3066,6 +3076,17 @@
 			(justify left bottom)
 		)
 		(uuid "b956bf0a-ad14-4f51-b7e0-a5daec616dc4")
+	)
+	(label "PA1"
+		(at 154.94 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb825768-a0a8-45d9-9c68-2d376735f639")
 	)
 	(label "PB10"
 		(at 160.02 105.41 180)
@@ -3456,6 +3477,18 @@
 			(justify right)
 		)
 		(uuid "e37aedda-3670-415e-8b03-9b96eaf5597f")
+	)
+	(hierarchical_label "PA1"
+		(shape input)
+		(at 161.29 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e626b4ff-70ef-4233-a5f8-3b67280a7f7f")
 	)
 	(hierarchical_label "PB6"
 		(shape output)

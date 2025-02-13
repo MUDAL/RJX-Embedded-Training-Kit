@@ -3475,7 +3475,7 @@
 	)
 	(text "7 Segment Display"
 		(exclude_from_sim no)
-		(at 201.168 70.358 0)
+		(at 201.168 69.088 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3487,7 +3487,7 @@
 	)
 	(text "LCD"
 		(exclude_from_sim no)
-		(at 84.074 59.69 0)
+		(at 68.834 55.372 0)
 		(effects
 			(font
 				(size 1.905 1.905)
