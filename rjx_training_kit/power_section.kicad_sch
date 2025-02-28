@@ -2673,7 +2673,7 @@
 		(uuid 22dc2a2d-71af-446a-8826-72760b5cfe7e)
 	)
 	(rectangle
-		(start 52.578 21.59)
+		(start 52.578 32.258)
 		(end 228.854 115.57)
 		(stroke
 			(width 0)
@@ -2791,7 +2791,7 @@
 	)
 	(text "Power Supply"
 		(exclude_from_sim no)
-		(at 136.398 26.67 0)
+		(at 136.398 36.576 0)
 		(effects
 			(font
 				(size 1.905 1.905)
