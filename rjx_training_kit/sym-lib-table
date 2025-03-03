@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "mpm3610")(type "KiCad")(uri "${KIPRJMOD}/mpm3610/mpm3610.kicad_sym")(options "")(descr "Synchronous Step-Down Converter"))
-)
