@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Regulator_LDO")(type "KiCad")(uri "${KIPRJMOD}/LD39200/ld39200.kicad_sym")(options "")(descr "2 A high PSRR ultra low drop linear regulator with reverse current protection"))
+)
