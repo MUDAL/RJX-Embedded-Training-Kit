@@ -3250,7 +3250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08549f53-5077-4474-82af-749ccf600658")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR072"
 			(at 157.48 39.37 0)
 			(effects
 				(font
@@ -3300,7 +3300,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR065")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3316,7 +3316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08db3a98-cf16-4930-aef4-408147f3c59e")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 57.15 26.67 0)
 			(effects
 				(font
@@ -3370,7 +3370,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3386,7 +3386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10461e34-3d2a-45a7-9f36-9ba2f117f819")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 67.31 48.26 0)
 			(effects
 				(font
@@ -3440,7 +3440,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3456,7 +3456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18b5b621-2f48-4572-9832-11e84427d635")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 137.16 26.67 0)
 			(effects
 				(font
@@ -3510,7 +3510,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3526,7 +3526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dc5296b-eeae-4100-9fe1-efc1ca76c188")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 125.73 26.67 0)
 			(effects
 				(font
@@ -3580,7 +3580,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3664,7 +3664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29c0a996-4513-4952-abb4-b96db54e764f")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 84.328 86.36 0)
 			(effects
 				(font
@@ -3716,7 +3716,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3731,7 +3731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d5fa91c-0641-4408-88be-784399676132")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR069"
 			(at 116.84 39.37 0)
 			(effects
 				(font
@@ -3781,7 +3781,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR062")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f23f155-decb-489d-b2e7-753b5cfe506d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR061"
 			(at 59.69 63.5 0)
 			(effects
 				(font
@@ -3846,7 +3846,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR054")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3862,7 +3862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37ee11b1-afaa-4d31-93e2-485a6ce2d320")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR057"
 			(at 48.26 64.77 0)
 			(effects
 				(font
@@ -3912,7 +3912,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR050")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3927,7 +3927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e77cccc-3f74-460a-85e3-02e32ed424c1")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR070"
 			(at 128.27 39.37 0)
 			(effects
 				(font
@@ -3977,7 +3977,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR063")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3992,7 +3992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "495067da-f5ab-4846-8d84-aa85f3f55484")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 94.488 50.8 0)
 			(effects
 				(font
@@ -4046,7 +4046,7 @@
 		(instances
 			(project ""
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b966c2c-43f8-475b-8068-a1247be23314")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR067"
 			(at 93.98 39.37 0)
 			(effects
 				(font
@@ -4111,7 +4111,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR060")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4127,7 +4127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5127d36b-7ea8-4240-b420-dab30eca63de")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 102.87 26.67 0)
 			(effects
 				(font
@@ -4181,7 +4181,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54aa4fba-05c6-4e62-8d02-eb004a214ca0")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -4251,7 +4251,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4267,7 +4267,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "564f03b9-9260-463f-bd20-d881c0fd7f38")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 68.58 26.67 0)
 			(effects
 				(font
@@ -4321,7 +4321,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4337,7 +4337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56da4b78-e9b7-4bc0-90a1-2db832e00c74")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 45.72 69.85 0)
 			(effects
 				(font
@@ -4391,7 +4391,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4406,7 +4406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7163063c-244b-4304-8280-22885f4c522c")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR074"
 			(at 167.64 39.37 0)
 			(effects
 				(font
@@ -4456,7 +4456,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR067")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4471,7 +4471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a244991-734a-4896-b182-7ff73c6229b6")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR063"
 			(at 71.12 39.37 0)
 			(effects
 				(font
@@ -4521,7 +4521,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR056")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ca42db1-3801-4685-b854-f68ddef32637")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 69.088 86.36 0)
 			(effects
 				(font
@@ -4588,7 +4588,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4603,7 +4603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fa5ee15-06d8-47d3-aa86-295bbfd70fb3")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR064"
 			(at 81.28 101.6 0)
 			(effects
 				(font
@@ -4653,7 +4653,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR057")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4669,7 +4669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84ed3d57-ae28-4f99-a779-3127b6e68db5")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 57.15 69.85 0)
 			(effects
 				(font
@@ -4723,7 +4723,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4739,7 +4739,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "884a10e5-b68f-4b9f-a1b8-c3e781216682")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 165.1 26.67 0)
 			(effects
 				(font
@@ -4793,7 +4793,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4808,7 +4808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "918777c5-44fc-4cd4-a9be-aa3056b1811f")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR065"
 			(at 82.55 39.37 0)
 			(effects
 				(font
@@ -4858,7 +4858,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR058")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4873,7 +4873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1389f04-aa9a-4726-87ae-11ac4309b5f7")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR058"
 			(at 48.26 82.55 0)
 			(effects
 				(font
@@ -4923,7 +4923,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR051")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4938,7 +4938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1edb593-7924-49a6-80bd-4ed13d9f2156")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR060"
 			(at 59.69 39.37 0)
 			(effects
 				(font
@@ -4988,7 +4988,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR053")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5004,7 +5004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2b4fef4-ca14-4626-ad8f-749ff635a61a")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR066"
 			(at 92.71 63.5 0)
 			(effects
 				(font
@@ -5054,7 +5054,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR059")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5327,7 +5327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b04ef535-78c1-485b-8050-03567736a7ad")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR073"
 			(at 167.64 25.4 0)
 			(effects
 				(font
@@ -5377,7 +5377,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR066")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5392,7 +5392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc715e77-e992-4cde-b71d-b2723d3a1282")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR068"
 			(at 105.41 39.37 0)
 			(effects
 				(font
@@ -5442,7 +5442,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR061")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5458,7 +5458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be6d497e-b0fb-416e-8597-53d5af44aa44")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 114.3 26.67 0)
 			(effects
 				(font
@@ -5512,7 +5512,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5527,7 +5527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c45bbb99-ce23-4455-baca-52614dd02d14")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR062"
 			(at 59.69 82.55 0)
 			(effects
 				(font
@@ -5577,7 +5577,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR055")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5593,7 +5593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb403e43-7595-4a2e-aa80-18adcf2a72c0")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 80.01 26.67 0)
 			(effects
 				(font
@@ -5647,7 +5647,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5662,7 +5662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2738768-a51d-4644-ad15-03a57883fda2")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR071"
 			(at 139.7 39.37 0)
 			(effects
 				(font
@@ -5712,7 +5712,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR064")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5728,7 +5728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d592e25a-bf66-4d6a-ba17-9f6bc55d43cb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR059"
 			(at 59.69 25.4 0)
 			(effects
 				(font
@@ -5778,7 +5778,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "#PWR052")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5863,7 +5863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dff5e5ce-eed7-4a1a-823e-a59edce0d16a")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 154.94 26.67 0)
 			(effects
 				(font
@@ -5917,7 +5917,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/6ff37231-b90f-440e-bce5-b002d3bf6e3d"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
