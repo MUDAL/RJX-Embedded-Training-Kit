@@ -4339,7 +4339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01313f69-427b-40b5-a21f-115d02d11763")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR028"
 			(at 137.16 35.56 0)
 			(effects
 				(font
@@ -4389,7 +4389,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR016")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4686,7 +4686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f854073-00d2-454c-a5f1-f6ec8c97eb75")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR016"
 			(at 35.56 153.67 0)
 			(effects
 				(font
@@ -4736,7 +4736,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR04")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4895,7 +4895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "1.5k"
 			(at 34.29 97.79 0)
 			(effects
 				(font
@@ -4955,7 +4955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58c68235-2705-4b52-846b-11f7453b535b")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR015"
 			(at 35.56 55.88 0)
 			(effects
 				(font
@@ -5005,7 +5005,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR03")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5021,7 +5021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a34785a-0aa4-4e52-900a-52f0ca39348d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 60.96 40.64 0)
 			(effects
 				(font
@@ -5071,7 +5071,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5157,7 +5157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cd7a22d-ae6f-487b-a6b8-4bdae97ab3e6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR018"
 			(at 53.34 40.64 0)
 			(effects
 				(font
@@ -5207,7 +5207,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR06")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5286,7 +5286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "686b7b25-6a05-4da3-a45a-bdc5f5c8c10f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR017"
 			(at 35.56 189.23 0)
 			(effects
 				(font
@@ -5336,7 +5336,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR05")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5360,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Power LED (Red)"
+		(property "Value" "Red"
 			(at 36.83 108.2674 90)
 			(effects
 				(font
@@ -5421,7 +5421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72a3a83c-7d6b-4540-a1b6-01547bd4093c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR025"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -5471,7 +5471,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR013")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5626,7 +5626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8016a301-c17c-43d3-8d37-53c24e3e5cf3")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR023"
 			(at 100.33 96.52 0)
 			(effects
 				(font
@@ -5676,7 +5676,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR011")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5692,7 +5692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9457400e-f4cb-4366-8c6e-efc14c98155b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR020"
 			(at 64.77 40.64 0)
 			(effects
 				(font
@@ -5742,7 +5742,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR08")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5828,7 +5828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0ecd430-a481-48c6-bf65-28abf8fdfe1f")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR027"
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -5878,7 +5878,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR015")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5893,7 +5893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a68207e0-4448-4a23-8441-8ea753d084dc")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR014"
 			(at 33.02 116.84 0)
 			(effects
 				(font
@@ -5943,7 +5943,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR02")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6162,7 +6162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba6af6ee-dfb9-478c-b57d-9a2c01aaf086")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR021"
 			(at 64.77 96.52 0)
 			(effects
 				(font
@@ -6212,7 +6212,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR09")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6227,7 +6227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce483b01-d5ff-45d8-aba9-a66c7c2b7988")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR022"
 			(at 82.55 115.57 0)
 			(effects
 				(font
@@ -6277,7 +6277,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR010")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6292,7 +6292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf42c4a0-788a-4b99-96b1-70832003a17a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR013"
 			(at 33.02 93.98 0)
 			(effects
 				(font
@@ -6342,7 +6342,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR01")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6421,7 +6421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db4b358f-f72d-4e56-9f60-87c3ae9f5ff0")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR031"
 			(at 148.59 48.26 0)
 			(effects
 				(font
@@ -6471,7 +6471,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR019")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6486,7 +6486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1628381-dc92-488a-9325-cbfde777725c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR030"
 			(at 148.59 35.56 0)
 			(effects
 				(font
@@ -6536,7 +6536,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR018")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6551,7 +6551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8cadd51-fe11-48ea-9a13-8ec4bd78ed03")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR029"
 			(at 137.16 48.26 0)
 			(effects
 				(font
@@ -6601,7 +6601,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR017")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6778,7 +6778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8740e46-10d1-4864-9ae2-0dca3ed44647")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR024"
 			(at 114.3 60.96 0)
 			(effects
 				(font
@@ -6828,7 +6828,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR012")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6844,7 +6844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f88fa41d-0246-4cee-a5ed-7828737cf32b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR026"
 			(at 121.92 60.96 0)
 			(effects
 				(font
@@ -6894,7 +6894,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66"
-					(reference "#PWR014")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
