@@ -4942,6 +4942,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VDD"
 			(power)
 			(pin_numbers hide)
@@ -5148,6 +5244,12 @@
 		(uuid "5b938760-a075-4a5b-a18e-1c0a4acb90fc")
 	)
 	(junction
+		(at 53.34 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f600c81-71ed-4a94-9084-da3a04df0bd9")
+	)
+	(junction
 		(at 60.96 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5190,6 +5292,18 @@
 		(uuid "78148373-306f-4c49-9891-7d67f600f024")
 	)
 	(junction
+		(at 27.94 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dd5fa46-9670-4a80-9415-106849e908d9")
+	)
+	(junction
+		(at 20.32 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f8c15ac-9c5c-41fa-8c23-2177e47c112c")
+	)
+	(junction
 		(at 240.03 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5214,6 +5328,12 @@
 		(uuid "8fa4da85-e1f6-4419-b863-8b3912a418e7")
 	)
 	(junction
+		(at 229.87 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90b14186-5239-41da-b0ac-4da9ddf34d8a")
+	)
+	(junction
 		(at 113.03 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5232,16 +5352,16 @@
 		(uuid "96eb7956-2f77-4a8b-ac31-e695a2732edf")
 	)
 	(junction
-		(at 20.32 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c00668c-dd6b-4ae6-9c63-a875cfe0b8ac")
-	)
-	(junction
 		(at 226.06 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cb60c38-3304-4677-8b48-ba3bd3dcede4")
+	)
+	(junction
+		(at 229.87 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a62dfa10-467f-4f85-b987-79343310f563")
 	)
 	(junction
 		(at 222.25 161.29)
@@ -5302,6 +5422,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fafc3d76-3f7b-4e62-a8b4-45c30b44d014")
+	)
+	(junction
+		(at 255.27 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc3c557b-6b4c-4740-81a0-9591a8a83a50")
 	)
 	(wire
 		(pts
@@ -5422,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "0ee6089a-8c6b-4f13-a840-9ad9b61546c8")
+	)
+	(wire
+		(pts
+			(xy 22.86 27.94) (xy 22.86 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9bedb7-a6c1-4864-b7f1-c06f0211f36b")
 	)
 	(wire
 		(pts
@@ -5565,6 +5701,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 36.83) (xy 264.16 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f085fe2-c572-4a72-ab84-cd5440c36505")
+	)
+	(wire
+		(pts
 			(xy 29.21 111.76) (xy 40.64 111.76)
 		)
 		(stroke
@@ -5585,7 +5731,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 162.56) (xy 35.56 162.56)
+			(xy 31.75 165.1) (xy 35.56 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5695,6 +5841,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 31.75) (xy 27.94 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c44ef57-8356-4aef-9f93-3c44c1cf0ead")
+	)
+	(wire
+		(pts
 			(xy 97.79 146.05) (xy 102.87 146.05)
 		)
 		(stroke
@@ -5715,7 +5871,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 167.64) (xy 43.18 171.45)
+			(xy 43.18 170.18) (xy 43.18 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5725,7 +5881,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 87.63) (xy 53.34 88.9)
+			(xy 53.34 86.36) (xy 53.34 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5765,7 +5921,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 38.1) (xy 39.37 43.18)
+			(xy 39.37 39.37) (xy 39.37 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5905,7 +6061,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 162.56) (xy 24.13 162.56)
+			(xy 20.32 165.1) (xy 24.13 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6022,6 +6178,16 @@
 			(type default)
 		)
 		(uuid "4d6ae895-3ee0-4a98-a421-0307fcc1a2d9")
+	)
+	(wire
+		(pts
+			(xy 20.32 88.9) (xy 20.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfd5fc5-426d-417e-bf3f-175633259000")
 	)
 	(wire
 		(pts
@@ -6182,6 +6348,16 @@
 			(type default)
 		)
 		(uuid "5a50a20a-cad6-401f-9c65-222b0cd09ecc")
+	)
+	(wire
+		(pts
+			(xy 27.94 31.75) (xy 27.94 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3a5124-7772-45f5-a009-80b0ac30e260")
 	)
 	(wire
 		(pts
@@ -6415,7 +6591,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 27.94) (xy 50.8 35.56)
+			(xy 50.8 27.94) (xy 50.8 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6525,7 +6701,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 30.48) (xy 39.37 35.56)
+			(xy 39.37 30.48) (xy 39.37 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6605,7 +6781,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 52.07) (xy 229.87 60.96)
+			(xy 229.87 52.07) (xy 229.87 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6765,7 +6941,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 154.94) (xy 43.18 157.48)
+			(xy 43.18 157.48) (xy 43.18 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6835,13 +7011,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 30.48) (xy 27.94 35.56)
+			(xy 53.34 87.63) (xy 53.34 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fd96348-4517-48be-b3b6-a9f226c2ab3c")
+		(uuid "924fa0e4-58c3-4528-ae06-a426a57d16bd")
 	)
 	(wire
 		(pts
@@ -6862,6 +7038,16 @@
 			(type default)
 		)
 		(uuid "95deceea-da5f-4820-bc39-994bdfe0dafb")
+	)
+	(wire
+		(pts
+			(xy 226.06 63.5) (xy 229.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ed85ce-7216-4d4f-a19d-aa1e4b8350d2")
 	)
 	(wire
 		(pts
@@ -7075,6 +7261,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 30.48) (xy 27.94 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade443a4-cfea-4c82-9fd6-a33feb1f248d")
+	)
+	(wire
+		(pts
 			(xy 184.15 40.64) (xy 184.15 38.1)
 		)
 		(stroke
@@ -7092,6 +7288,16 @@
 			(type default)
 		)
 		(uuid "b0b7580d-e87e-4f74-a9ac-4958cbd7587c")
+	)
+	(wire
+		(pts
+			(xy 264.16 38.1) (xy 255.27 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1379516-dcd6-4e1f-8849-d34ef8451974")
 	)
 	(wire
 		(pts
@@ -7315,7 +7521,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 38.1) (xy 27.94 43.18)
+			(xy 27.94 39.37) (xy 27.94 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7342,6 +7548,16 @@
 			(type default)
 		)
 		(uuid "ca845439-fd79-42a5-a8dd-a2dde563bbe2")
+	)
+	(wire
+		(pts
+			(xy 226.06 57.15) (xy 229.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9bcb16-77da-4e96-833c-1dcfdb4a79ed")
 	)
 	(wire
 		(pts
@@ -7422,16 +7638,6 @@
 			(type default)
 		)
 		(uuid "d30dcc23-7417-498c-bc05-717a829ac471")
-	)
-	(wire
-		(pts
-			(xy 20.32 87.63) (xy 20.32 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30e7657-0b98-4b18-8997-d1e0214e3d8f")
 	)
 	(wire
 		(pts
@@ -7595,16 +7801,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 86.36) (xy 20.32 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de1cb1ca-659e-44dc-abc3-a44443a93a00")
-	)
-	(wire
-		(pts
 			(xy 74.93 106.68) (xy 66.04 106.68)
 		)
 		(stroke
@@ -7715,6 +7911,26 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 57.15) (xy 229.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcae8bc-8b58-4d08-a128-89daaf734579")
+	)
+	(wire
+		(pts
+			(xy 20.32 86.36) (xy 20.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee74a1c3-418b-4582-88b2-82495b45d197")
+	)
+	(wire
+		(pts
 			(xy 240.03 36.83) (xy 240.03 38.1)
 		)
 		(stroke
@@ -7815,7 +8031,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 74.93) (xy 20.32 76.2)
+			(xy 20.32 73.66) (xy 20.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7845,7 +8061,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 50.8 43.18)
+			(xy 50.8 39.37) (xy 50.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7855,7 +8071,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 146.05) (xy 43.18 149.86)
+			(xy 43.18 147.32) (xy 43.18 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8050,7 +8266,7 @@
 	)
 	(text "If Jumper is open:\n1. The load at the OUT terminal of \n   the charger will be powered by\n   the battery (BAT) instead.\n2. No charging occurs. Battery \n   discharges through an internal\n   FET to power the system load. "
 		(exclude_from_sim no)
-		(at 35.56 78.74 0)
+		(at 23.622 74.168 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8116,7 +8332,7 @@
 	)
 	(text "JST"
 		(exclude_from_sim no)
-		(at 21.59 41.148 0)
+		(at 21.59 42.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8160,7 +8376,7 @@
 	)
 	(text "This circuit speeds up the\ndischarge of the LiPo battery\nwith a 33-ohm resistor."
 		(exclude_from_sim no)
-		(at 87.376 122.428 0)
+		(at 87.376 124.206 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8171,7 +8387,7 @@
 	)
 	(text "Note:\nI(CHG) = Fast charge current\nI(IN_MAX) = Input current limit\nt(MAXCHG) = Fast-charge safety timer"
 		(exclude_from_sim no)
-		(at 17.78 62.23 0)
+		(at 18.288 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8249,7 +8465,7 @@
 	)
 	(text "-"
 		(exclude_from_sim no)
-		(at 20.32 38.354 0)
+		(at 20.32 39.624 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8302,7 +8518,7 @@
 	)
 	(text "+"
 		(exclude_from_sim no)
-		(at 43.942 35.56 0)
+		(at 43.942 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8353,7 +8569,7 @@
 	)
 	(text "+"
 		(exclude_from_sim no)
-		(at 31.75 35.56 0)
+		(at 31.75 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8386,7 +8602,7 @@
 	)
 	(text "-"
 		(exclude_from_sim no)
-		(at 43.942 38.354 0)
+		(at 43.942 39.624 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8396,7 +8612,7 @@
 	)
 	(text "JST"
 		(exclude_from_sim no)
-		(at 33.02 41.148 0)
+		(at 33.02 42.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8465,7 +8681,7 @@
 	)
 	(text "Backlight ON/OFF Control"
 		(exclude_from_sim no)
-		(at 214.63 63.5 0)
+		(at 200.152 68.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8518,7 +8734,7 @@
 	)
 	(text "-"
 		(exclude_from_sim no)
-		(at 31.75 38.354 0)
+		(at 31.75 39.624 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8528,7 +8744,7 @@
 	)
 	(text "+"
 		(exclude_from_sim no)
-		(at 20.32 35.56 0)
+		(at 20.32 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8546,9 +8762,20 @@
 		)
 		(uuid "db895c7c-3e11-43e5-8343-54ddb684ef5c")
 	)
+	(text "BATT_DISCHARGE"
+		(exclude_from_sim no)
+		(at 87.376 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e016e1cb-97ee-4816-8902-8f13fb2c651c")
+	)
 	(text "The CHG_OUT and one of the LiPo \nconnectors can be used for testing \npurposes."
 		(exclude_from_sim no)
-		(at 18.034 52.578 0)
+		(at 18.288 53.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9134,7 +9361,7 @@
 	)
 	(hierarchical_label "PB12"
 		(shape passive)
-		(at 20.32 162.56 180)
+		(at 20.32 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9285,7 +9512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0070757f-b8c6-4084-8361-4ecc9fd636e4")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR043"
 			(at 102.87 67.31 0)
 			(effects
 				(font
@@ -9335,7 +9562,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR046")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9350,7 +9577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0243ce89-afeb-4029-8327-2e178453dd3a")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR073"
 			(at 281.94 64.77 0)
 			(effects
 				(font
@@ -9400,7 +9627,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR069")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -9416,7 +9643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05e60d13-1898-47be-a03b-2f2eef794151")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 143.51 151.13 0)
 			(effects
 				(font
@@ -9470,7 +9697,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -9485,7 +9712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a66bdb9-32cd-4eb1-b9c6-22205131fd8f")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR070"
 			(at 240.03 29.21 0)
 			(effects
 				(font
@@ -9535,7 +9762,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR066")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -9620,7 +9847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15810e50-6579-4a66-a0d3-d1a64e7ffe8b")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 39.37 116.84 0)
 			(effects
 				(font
@@ -9674,7 +9901,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9689,7 +9916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1856617a-841e-40b6-b638-6ee4e471db6d")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 140.462 169.418 90)
 			(effects
 				(font
@@ -9743,7 +9970,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9825,10 +10052,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d502713-a3ef-40f8-b319-01182196ecff")
-		(property "Reference" "R33"
-			(at 210.82 77.4699 0)
+		(property "Reference" "R34"
+			(at 209.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +10063,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 210.82 80.0099 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9881,7 +10107,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -9896,7 +10122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28a6d7d0-940c-4c76-914a-340e66e908f8")
-		(property "Reference" "R34"
+		(property "Reference" "R35"
 			(at 215.9 66.04 90)
 			(effects
 				(font
@@ -9948,7 +10174,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -10032,7 +10258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f8b0d05-9c15-4f34-97f1-914ebcd373a2")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 227.584 152.908 90)
 			(effects
 				(font
@@ -10086,7 +10312,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -10170,7 +10396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30b7c84e-9dce-465b-8b17-eea6de9600b3")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 102.87 72.898 90)
 			(effects
 				(font
@@ -10224,7 +10450,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10232,15 +10458,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 43.18 146.05 0)
+		(at 43.18 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "30d61463-b471-42d2-a121-0edcfa72b2fc")
-		(property "Reference" "#PWR038"
-			(at 43.18 149.86 0)
+		(property "Reference" "#PWR031"
+			(at 43.18 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10249,7 +10475,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 43.18 142.24 0)
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,7 +10483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 146.05 0)
+			(at 43.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10266,7 +10492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 146.05 0)
+			(at 43.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 146.05 0)
+			(at 43.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,7 +10515,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR038")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10304,7 +10530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30e90f5e-3c9c-4ed5-9181-ebb8b03f7673")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 135.89 165.1 90)
 			(effects
 				(font
@@ -10358,7 +10584,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10374,7 +10600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32dc8a00-f764-4006-91a9-0a8b834d005f")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 179.07 31.75 0)
 			(effects
 				(font
@@ -10428,7 +10654,72 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R31")
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 53.34 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "338b4153-20fe-4880-aca9-da8a4fc6c360")
+		(property "Reference" "#FLG05"
+			(at 53.34 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62c8ce3f-171a-4c6d-98bf-d09f025f09eb")
+		)
+		(instances
+			(project "rjx_training_kit"
+				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -10443,7 +10734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3444ddc8-4488-42c3-8344-4d28e870189e")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 153.035 153.924 90)
 			(effects
 				(font
@@ -10497,7 +10788,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -10574,23 +10865,14 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 27.94 162.56 90)
+		(at 27.94 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3804b536-ddcf-4f52-841f-f7c8c7a3f6ae")
-		(property "Reference" "R6"
-			(at 29.845 157.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5k"
+		(property "Reference" "R7"
 			(at 29.845 160.274 90)
 			(effects
 				(font
@@ -10599,8 +10881,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "1.5k"
+			(at 29.845 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 28.194 161.544 90)
+			(at 28.194 164.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10609,7 +10900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 162.56 0)
+			(at 27.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10618,7 +10909,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 27.94 162.56 0)
+			(at 27.94 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10926,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10643,15 +10934,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 43.18 0)
+		(at 39.37 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3900055c-9abf-40ce-8b2b-177706e80c3e")
-		(property "Reference" "#PWR037"
-			(at 39.37 49.53 0)
+		(property "Reference" "#PWR030"
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10660,7 +10951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 46.99 0)
+			(at 39.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10668,7 +10959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 43.18 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10677,7 +10968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 43.18 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10686,7 +10977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 43.18 0)
+			(at 39.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +10991,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR037")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10715,7 +11006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a232786-6566-4ab8-9d6b-4d800949a497")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR057"
 			(at 170.18 74.93 0)
 			(effects
 				(font
@@ -10765,7 +11056,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR01")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10848,7 +11139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c667fef-31ae-4a72-afe6-ebd7f1cbd260")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 189.23 31.75 0)
 			(effects
 				(font
@@ -10902,7 +11193,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -10987,7 +11278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43c36117-601b-442d-bd47-b77ebfe4a788")
-		(property "Reference" "R35"
+		(property "Reference" "R37"
 			(at 227.33 46.9899 0)
 			(effects
 				(font
@@ -11041,7 +11332,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R35")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -11055,9 +11346,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "460b72b6-d0f9-41b5-a98e-5dd084ee849e")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 232.41 69.8499 0)
 			(effects
 				(font
@@ -11117,7 +11407,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -11125,15 +11415,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 20.32 74.93 0)
+		(at 20.32 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4d182dd4-e0d7-430c-8b65-625994f857e8")
-		(property "Reference" "#PWR032"
-			(at 20.32 78.74 0)
+		(property "Reference" "#PWR024"
+			(at 20.32 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +11432,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 20.32 71.12 0)
+			(at 20.32 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11150,7 +11440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 74.93 0)
+			(at 20.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11159,7 +11449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 74.93 0)
+			(at 20.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11168,7 +11458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 20.32 74.93 0)
+			(at 20.32 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11182,7 +11472,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR032")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11198,7 +11488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d431f15-5af1-42a0-bba8-9df8a46bc4e6")
-		(property "Reference" "Q3"
+		(property "Reference" "Q4"
 			(at 166.37 160.0201 0)
 			(effects
 				(font
@@ -11258,7 +11548,7 @@
 		(instances
 			(project ""
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -11266,15 +11556,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 43.18 0)
+		(at 50.8 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4e525a89-8d3d-4c8b-b9a7-9ee88fb251e6")
-		(property "Reference" "#PWR04"
-			(at 50.8 49.53 0)
+		(property "Reference" "#PWR033"
+			(at 50.8 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11283,7 +11573,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 46.99 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +11581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 43.18 0)
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,7 +11590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 43.18 0)
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,7 +11599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 43.18 0)
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11613,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR04")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11339,7 +11629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f8afa57-294c-4a9d-822f-5d13a8305324")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 123.19 115.5699 0)
 			(effects
 				(font
@@ -11399,7 +11689,7 @@
 		(instances
 			(project ""
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -11414,7 +11704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "518897b0-d2ae-453b-be25-5f33ec7a7915")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR065"
 			(at 203.2 29.21 0)
 			(effects
 				(font
@@ -11464,7 +11754,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR061")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -11479,7 +11769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52077f51-163a-41aa-a0f7-f36a080bf210")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR044"
 			(at 102.87 148.59 0)
 			(effects
 				(font
@@ -11529,7 +11819,7 @@
 		(instances
 			(project ""
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR047")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11607,7 +11897,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 34.29 38.1 180)
+		(at 34.29 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11615,7 +11905,7 @@
 		(dnp no)
 		(uuid "55295ff0-2c49-4796-b7ba-b5c2d3ea0ee1")
 		(property "Reference" "J5"
-			(at 33.782 30.734 0)
+			(at 33.782 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11623,7 +11913,7 @@
 			)
 		)
 		(property "Value" "LiPo_4.2V"
-			(at 34.036 32.766 0)
+			(at 34.036 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +11921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 38.1 0)
+			(at 34.29 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11640,7 +11930,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 38.1 0)
+			(at 34.29 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11649,7 +11939,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 38.1 0)
+			(at 34.29 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11681,7 +11971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57373ead-74e6-42bb-9a02-6ffbdcd2db05")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR049"
 			(at 120.65 130.81 0)
 			(effects
 				(font
@@ -11731,7 +12021,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR052")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11739,15 +12029,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 43.18 0)
+		(at 27.94 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "57fa2224-59e7-4cc5-87de-51f3ca669ce6")
-		(property "Reference" "#PWR034"
-			(at 27.94 49.53 0)
+		(property "Reference" "#PWR027"
+			(at 27.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +12046,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 46.99 0)
+			(at 27.94 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11764,7 +12054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 43.18 0)
+			(at 27.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11773,7 +12063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 43.18 0)
+			(at 27.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11782,7 +12072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 43.18 0)
+			(at 27.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11796,7 +12086,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR034")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11915,15 +12205,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 171.45 0)
+		(at 43.18 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5acc5a0e-fea5-47b3-8f61-91024e61d272")
-		(property "Reference" "#PWR039"
-			(at 43.18 177.8 0)
+		(property "Reference" "#PWR032"
+			(at 43.18 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +12222,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 175.26 0)
+			(at 43.18 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11940,7 +12230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 171.45 0)
+			(at 43.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11949,7 +12239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 171.45 0)
+			(at 43.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11958,7 +12248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 171.45 0)
+			(at 43.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11972,7 +12262,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR039")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12056,7 +12346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60471431-5aff-485d-9c2d-dc0159dbb377")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR069"
 			(at 229.87 91.44 0)
 			(effects
 				(font
@@ -12106,7 +12396,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR065")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12121,7 +12411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63af6b9a-2b63-42a1-ae4a-a74780e05320")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 145.034 165.1 90)
 			(effects
 				(font
@@ -12175,7 +12465,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -12190,7 +12480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64193e0f-5028-461a-afec-8a2bdee91e10")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR025"
 			(at 20.32 105.41 0)
 			(effects
 				(font
@@ -12240,7 +12530,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR08")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12326,7 +12616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "686d89fa-4bcc-4717-afb5-76cddaf6c12c")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 131.318 165.1 90)
 			(effects
 				(font
@@ -12380,7 +12670,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -12396,7 +12686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68edc6fc-2024-4d65-b69b-f583b0164a90")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -12450,7 +12740,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12465,7 +12755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69382cf6-829f-4d69-bf5f-5144586dc6a2")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 184.15 57.15 0)
 			(effects
 				(font
@@ -12515,7 +12805,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -12530,7 +12820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ab0c67e-682a-4a1d-ad21-0ab6c0d67de6")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 170.18 97.79 0)
 			(effects
 				(font
@@ -12580,7 +12870,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12595,7 +12885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d9b7991-889c-4e47-8c00-8ea46098b03a")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR036"
 			(at 60.96 57.15 0)
 			(effects
 				(font
@@ -12645,7 +12935,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR042")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12730,7 +13020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f39480e-f01c-4f2a-b5d3-faf1927fed71")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 91.44 97.028 90)
 			(effects
 				(font
@@ -12782,7 +13072,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12797,7 +13087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f8c60e3-0e15-45a6-ba60-ff2bb7e06c9b")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 30.226 116.84 0)
 			(effects
 				(font
@@ -12851,7 +13141,72 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R7")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 226.06 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7323439e-de3b-4277-9753-5f860de0912f")
+		(property "Reference" "#FLG01"
+			(at 224.155 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 224.282 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 226.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bd819b2-3c13-40ff-a503-0abac00306ec")
+		)
+		(instances
+			(project "rjx_training_kit"
+				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -12866,7 +13221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "788929ad-4b11-4752-8252-537f1cb0b627")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR035"
 			(at 60.96 34.29 0)
 			(effects
 				(font
@@ -12916,7 +13271,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR041")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12931,7 +13286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78f6c2a2-d7cf-41da-a917-e3f15d914473")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 135.89 169.418 90)
 			(effects
 				(font
@@ -12985,7 +13340,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -13000,7 +13355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7caf71a1-6afa-4f40-a3d3-3efc682cc433")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR040"
 			(at 82.55 95.25 0)
 			(effects
 				(font
@@ -13050,7 +13405,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR05")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13065,7 +13420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81e4387a-8318-4d30-b5a5-fa50728a1a4b")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 63.754 34.29 0)
 			(effects
 				(font
@@ -13117,7 +13472,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13201,7 +13556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85cf368e-bb3e-438a-a7cc-afc751ff650a")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR029"
 			(at 39.37 34.29 0)
 			(effects
 				(font
@@ -13251,7 +13606,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR036")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13266,7 +13621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "863e7ae9-1c84-454f-a718-540e4c30b562")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR026"
 			(at 27.94 34.29 0)
 			(effects
 				(font
@@ -13316,7 +13671,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR033")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13400,7 +13755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "870348d5-3f2c-409e-8ded-6ec573502c97")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR047"
 			(at 113.03 181.61 0)
 			(effects
 				(font
@@ -13450,7 +13805,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR050")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13465,7 +13820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8827042d-a044-4650-b489-d1e7eaaefa9a")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 131.318 169.418 90)
 			(effects
 				(font
@@ -13519,7 +13874,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -13534,7 +13889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "883d05e0-3cb0-42cf-9871-2bd5e36dc183")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR045"
 			(at 102.87 161.29 0)
 			(effects
 				(font
@@ -13584,7 +13939,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR048")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -13668,7 +14023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c56ae4c-cd31-4a09-bd9d-0c0dd2f54bda")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 21.59 116.84 0)
 			(effects
 				(font
@@ -13722,7 +14077,7 @@
 		(instances
 			(project ""
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13825,7 +14180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dc1c223-e756-4cf6-b29d-f8a3e29c31c9")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR048"
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -13875,7 +14230,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR051")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -13890,7 +14245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f62a467-809e-4daa-9df1-5a25cef3848b")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 76.2 114.3 0)
 			(effects
 				(font
@@ -13944,7 +14299,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14028,7 +14383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94751e2f-330c-4966-a76f-7c1f0158a973")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 99.06 111.76 90)
 			(effects
 				(font
@@ -14080,7 +14435,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14095,7 +14450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94c7fed2-1738-4629-bd2a-575d409efcfd")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 128.27 88.9 90)
 			(effects
 				(font
@@ -14149,7 +14504,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -14164,7 +14519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9500c7ad-d791-4990-be46-6aec01981d90")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR068"
 			(at 222.25 157.48 0)
 			(effects
 				(font
@@ -14214,7 +14569,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR064")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -14389,6 +14744,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 226.06 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99577992-5e84-4971-af98-77858bc3b45a")
+		(property "Reference" "#FLG03"
+			(at 224.155 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 224.282 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 226.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4fafcf5-f000-4556-b20d-833e855e7156")
+		)
+		(instances
+			(project "rjx_training_kit"
+				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 125.73 30.48 0)
 		(unit 1)
@@ -14397,7 +14817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a328512-b053-4a65-b608-0750eebbf26d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR050"
 			(at 125.73 34.29 0)
 			(effects
 				(font
@@ -14447,7 +14867,7 @@
 		(instances
 			(project ""
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR053")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -14462,7 +14882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c905718-730a-4d09-93a8-0f02a7faf7f3")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR042"
 			(at 95.25 193.04 0)
 			(effects
 				(font
@@ -14512,7 +14932,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR045")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14608,7 +15028,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 45.72 152.4 0)
+		(at 45.72 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14617,15 +15037,6 @@
 		(fields_autoplaced yes)
 		(uuid "a675131e-c321-4f7d-b0bc-bd49f7601d2a")
 		(property "Reference" "BZ1"
-			(at 49.53 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V_Buzzer"
 			(at 49.53 153.6699 0)
 			(effects
 				(font
@@ -14634,8 +15045,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "5V_Buzzer"
+			(at 49.53 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 45.085 149.86 90)
+			(at 45.085 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14644,7 +15064,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.085 149.86 90)
+			(at 45.085 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14653,7 +15073,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 45.72 152.4 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14685,7 +15105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac56a30d-3621-461a-be5a-0ba25481a658")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR054"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -14735,7 +15155,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR056")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -14750,7 +15170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2e2720f-b65c-4354-9a59-d7bfa147d4fe")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR037"
 			(at 73.66 34.29 0)
 			(effects
 				(font
@@ -14800,7 +15220,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR043")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14815,7 +15235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b55b4ae9-82a7-4cf4-9a31-b66827ebec93")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR067"
 			(at 208.28 91.44 0)
 			(effects
 				(font
@@ -14865,7 +15285,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR063")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -14880,7 +15300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5fb9287-4871-42fa-a746-f713988e06ba")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR061"
 			(at 187.96 119.38 0)
 			(effects
 				(font
@@ -14930,7 +15350,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR011")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -14945,7 +15365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6016ec1-81da-4c24-a283-88fc77c3f17e")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR072"
 			(at 255.27 96.52 0)
 			(effects
 				(font
@@ -14995,7 +15415,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR068")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -15010,7 +15430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baa5fdf8-d948-462f-bd81-d9d427f30a9f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR062"
 			(at 187.96 146.05 0)
 			(effects
 				(font
@@ -15060,7 +15480,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR012")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -15213,7 +15633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bde27597-08a1-4c8c-935d-c7658c76ff64")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR056"
 			(at 157.48 57.15 0)
 			(effects
 				(font
@@ -15263,7 +15683,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR058")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -15278,7 +15698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be10f028-290e-49d2-9487-4b21e19da684")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 138.43 39.37 0)
 			(effects
 				(font
@@ -15332,7 +15752,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -15416,7 +15836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0fa1f2b-70d9-4829-924b-d681a2a79bbd")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 107.95 111.76 90)
 			(effects
 				(font
@@ -15468,7 +15888,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -15596,7 +16016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c19111af-4942-440f-ad7d-9150c524beea")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR051"
 			(at 125.73 52.07 0)
 			(effects
 				(font
@@ -15646,7 +16066,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR054")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15661,7 +16081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c27c73a2-e16d-4620-a856-9bb68b92c9bb")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 145.034 169.418 90)
 			(effects
 				(font
@@ -15715,7 +16135,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -15799,7 +16219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4ccaaf4-b783-4f83-8c26-11878a7091fe")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR063"
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -15849,7 +16269,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR09")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -15864,7 +16284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c88af483-9281-4040-bc38-bd5ccd93294f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR028"
 			(at 27.94 111.76 0)
 			(effects
 				(font
@@ -15914,7 +16334,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR035")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15929,7 +16349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf1499b6-3e86-46ff-b75e-1396bd293193")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR039"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -15979,7 +16399,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR07")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15994,7 +16414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf9526b1-8908-470e-9d91-2ba2c6db5d56")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR053"
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -16044,7 +16464,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR02")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -16052,23 +16472,14 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC817")
-		(at 40.64 162.56 0)
+		(at 40.64 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d167cc66-0097-4557-9e58-5f89637f2044")
-		(property "Reference" "Q1"
-			(at 45.212 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC817"
+		(property "Reference" "Q2"
 			(at 45.212 163.83 0)
 			(effects
 				(font
@@ -16077,8 +16488,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "BC817"
+			(at 45.212 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 45.72 164.465 0)
+			(at 45.72 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,7 +16509,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 40.64 162.56 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16099,7 +16519,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 40.64 162.56 0)
+			(at 40.64 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16119,7 +16539,7 @@
 		(instances
 			(project ""
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -16134,7 +16554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d17249fd-e687-4aa4-abed-6b5963cfb162")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 238.506 152.908 90)
 			(effects
 				(font
@@ -16188,7 +16608,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -16272,7 +16692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d661de23-55f0-484c-9b3e-56b7ef0ecd4c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR060"
 			(at 185.42 130.81 0)
 			(effects
 				(font
@@ -16322,7 +16742,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR010")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -16337,7 +16757,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6676336-20d9-4171-abee-69a2faa80477")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 232.918 152.908 90)
 			(effects
 				(font
@@ -16391,7 +16811,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -16406,7 +16826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d869ab2e-0d61-4c19-868a-2473878b6e40")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR034"
 			(at 53.34 130.81 0)
 			(effects
 				(font
@@ -16456,7 +16876,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR040")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -16471,7 +16891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da949339-ea8d-46f2-ba14-91b63981524e")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR071"
 			(at 240.03 59.69 0)
 			(effects
 				(font
@@ -16521,7 +16941,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR067")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -16536,7 +16956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc0f6ab9-e740-4283-b61b-fde9949bd6fa")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 62.23 44.45 0)
 			(effects
 				(font
@@ -16590,7 +17010,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16605,7 +17025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc938979-c937-4be4-bb9d-cbc40cedde3a")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 102.87 80.264 90)
 			(effects
 				(font
@@ -16659,7 +17079,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -16729,6 +17149,71 @@
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 264.16 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd8da458-c1f7-41f0-a3c3-653ca0f526ae")
+		(property "Reference" "#FLG04"
+			(at 264.16 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 264.16 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33239052-d7b4-4cb0-a656-3c9b0eaae1dc")
+		)
+		(instances
+			(project "rjx_training_kit"
+				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -16902,7 +17387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3df7fa0-80a6-40f7-ac8b-8d7221afe949")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR052"
 			(at 137.16 34.29 0)
 			(effects
 				(font
@@ -16952,7 +17437,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR055")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -16967,7 +17452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4353b55-9888-463b-8a52-96855a0e0e71")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR064"
 			(at 201.93 146.05 0)
 			(effects
 				(font
@@ -17017,7 +17502,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR03")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -17140,7 +17625,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 45.72 35.56 0)
+		(at 45.72 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17148,7 +17633,7 @@
 		(dnp no)
 		(uuid "e860d8c9-3371-4812-a681-ccbd82946acb")
 		(property "Reference" "J6"
-			(at 45.72 30.734 0)
+			(at 45.72 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17156,7 +17641,7 @@
 			)
 		)
 		(property "Value" "CHG_OUT"
-			(at 45.72 32.766 0)
+			(at 45.72 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17164,7 +17649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 35.56 0)
+			(at 45.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17173,7 +17658,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 35.56 0)
+			(at 45.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17182,7 +17667,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 45.72 35.56 0)
+			(at 45.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17287,7 +17772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecbb20d7-ddb1-4529-b46b-628adfdc7bfe")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 140.462 165.1 90)
 			(effects
 				(font
@@ -17341,7 +17826,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -17356,7 +17841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f17ffd02-0837-4005-b1bf-173aa01d7772")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR038"
 			(at 73.66 50.8 0)
 			(effects
 				(font
@@ -17406,7 +17891,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR044")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -17421,7 +17906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f205eb54-1b29-4c9f-9027-3d16e8ada0ba")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR055"
 			(at 157.48 29.21 0)
 			(effects
 				(font
@@ -17471,7 +17956,72 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR057")
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 22.86 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f37ad254-0df1-4bbe-a3a4-944f85f52eab")
+		(property "Reference" "#FLG06"
+			(at 22.86 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 22.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be7bf41d-f7a7-4b86-b106-ee98a730acd6")
+		)
+		(instances
+			(project "rjx_training_kit"
+				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -17486,7 +18036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5aea53e-4bfe-4b07-8917-3fb5ee0d7148")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR041"
 			(at 82.55 130.81 0)
 			(effects
 				(font
@@ -17536,7 +18086,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR06")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -17551,7 +18101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7405b70-68b1-4c0c-b7ff-075313cce4b1")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR066"
 			(at 203.2 57.15 0)
 			(effects
 				(font
@@ -17601,7 +18151,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR062")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -17616,7 +18166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f95a701a-20bd-4168-96e2-f52c5b188d8b")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR046"
 			(at 107.95 104.14 0)
 			(effects
 				(font
@@ -17666,7 +18216,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "#PWR049")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -17682,7 +18232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcbbda4f-f6d9-450c-97c7-72f896dca1d8")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 156.21 30.48 0)
 			(effects
 				(font
@@ -17736,7 +18286,7 @@
 		(instances
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -17744,7 +18294,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 22.86 35.56 0)
+		(at 22.86 36.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17753,7 +18303,7 @@
 		(dnp no)
 		(uuid "fe2c0977-2f30-4cdd-97ea-7641608a30e0")
 		(property "Reference" "J4"
-			(at 22.86 30.734 0)
+			(at 21.59 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17761,7 +18311,7 @@
 			)
 		)
 		(property "Value" "LiPo_4.2V"
-			(at 22.606 32.766 0)
+			(at 22.606 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17769,7 +18319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 35.56 0)
+			(at 22.86 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17778,7 +18328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 35.56 0)
+			(at 22.86 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17787,7 +18337,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 35.56 0)
+			(at 22.86 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
