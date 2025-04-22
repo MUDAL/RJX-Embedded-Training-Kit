@@ -8691,7 +8691,7 @@
 	)
 	(text "If Jumper is open, the 120-ohm CAN bus \ntermination resistor is disabled."
 		(exclude_from_sim no)
-		(at 204.47 106.68 0)
+		(at 216.916 107.188 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12547,7 +12547,7 @@
 		(dnp no)
 		(uuid "6662104c-3470-417e-8b09-0e20017bea72")
 		(property "Reference" "RV2"
-			(at 234.95 45.72 0)
+			(at 236.728 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,7 +12555,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 234.95 48.26 0)
+			(at 236.728 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
