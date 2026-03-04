@@ -1,5 +1,19 @@
+# KiCad backups / autosaves (project-specific)
+rjx_training_kit/Hardware/*-backups/
+rjx_training_kit/Hardware/_autosave-*
+rjx_training_kit/Hardware/*.bak
+rjx_training_kit/Hardware/*.bck
+rjx_training_kit/Hardware/*.kicad_sch-bak
+rjx_training_kit/Hardware/*.kicad_pcb-bak
+
+# KiCad lock files
+rjx_training_kit/Hardware/*.lck
+
+# Footprint info cache (KiCad cache)
+rjx_training_kit/Hardware/fp-info-cache
+
+# Optional: local/per-user project settings (often noisy in Git)
+rjx_training_kit/Hardware/*.kicad_prl
+
 # Unnecessary zone identifier file
 *Zone.Identifier
-
-# Remove KiCad backups
-*backups

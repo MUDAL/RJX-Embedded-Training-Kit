@@ -16,6 +16,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -24,7 +25,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|812800|482600|616b0330-0a72-483d-a74d-9301896c5950|f0cc7243-797e-46a0-ad6a-40397f3bf730|/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be|/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be|/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be",
+        "SRP is intended to be connected to +BATT. The SRP label facilitates the readability of the schematic."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -210,10 +216,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "ignore",
       "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -226,21 +237,29 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
       "similar_labels": "warning",
+      "similar_power": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "LD39200"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "rjx_training_kit.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -255,6 +274,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -263,7 +283,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -339,6 +359,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -380,7 +401,8 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "Schematic/",
+    "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
