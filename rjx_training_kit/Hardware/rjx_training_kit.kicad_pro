@@ -25,12 +25,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|812800|482600|616b0330-0a72-483d-a74d-9301896c5950|f0cc7243-797e-46a0-ad6a-40397f3bf730|/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be|/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be|/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be",
-        "SRP is intended to be connected to +BATT. The SRP label facilitates the readability of the schematic."
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },

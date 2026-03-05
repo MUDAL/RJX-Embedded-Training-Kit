@@ -5407,6 +5407,17 @@
 		)
 		(uuid "5e27516d-25c2-474c-ad59-0f0d92173eef")
 	)
+	(text "SRP"
+		(exclude_from_sim no)
+		(at 99.314 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60f3b556-3e77-490b-8c5c-ea83bba8dc8d")
+	)
 	(text "Load/Discharge \nIndicator"
 		(exclude_from_sim no)
 		(at 135.89 112.014 0)
@@ -7910,7 +7921,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 48.26) (xy 88.9 48.26)
+			(xy 82.55 50.8) (xy 88.9 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8640,6 +8651,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 50.8) (xy 88.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc34470b-b88e-4bd9-800a-b3a49d0302a1")
+	)
+	(wire
+		(pts
 			(xy 147.32 72.39) (xy 170.18 72.39)
 		)
 		(stroke
@@ -8818,16 +8839,6 @@
 		)
 		(uuid "96519632-960a-41d5-9188-6d7b22e97ac9")
 	)
-	(label "SRP"
-		(at 99.06 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c2de4a5-a0c5-4cc3-9639-bc79f0c1975c")
-	)
 	(label "BQ24072_PGOOD"
 		(at 125.73 77.47 0)
 		(effects
@@ -8877,16 +8888,6 @@
 			(justify left bottom)
 		)
 		(uuid "e498d69d-cb04-4dd1-abe2-c7e06206a13c")
-	)
-	(label "SRP"
-		(at 81.28 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0cc7243-797e-46a0-ad6a-40397f3bf730")
 	)
 	(label "TMR"
 		(at 35.56 101.6 0)
@@ -17447,6 +17448,71 @@
 			(project "rjx_training_kit"
 				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 82.55 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb69131d-cd7e-41a2-9a3f-8f3d660b8d98")
+		(property "Reference" "#PWR086"
+			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 82.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb2bebee-24ef-43f2-9603-a26b4f176006")
+		)
+		(instances
+			(project "rjx_training_kit"
+				(path "/c10d0f5f-1570-4ced-80f8-bf69ea514c66/84fb618b-c7c4-4945-a2e1-bdfcc1b3a7be"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
