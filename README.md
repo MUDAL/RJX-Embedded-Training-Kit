@@ -1,16 +1,82 @@
-# RJX-Embedded-Training-Kit
+# RJX Embedded Training Kit
 
-## Helpful resources
-1. [Texas Instruments Forum - Problems in BQ24072](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/106873/problems-in-bq24072)
-2. [Texas Instruments Forum - BQ24072: Short circuit condition](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/1271063/bq24072-short-circuit-condition)
-3. [Texas Instruments Forum - BQ24072: Low battery behaviour](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/247653/bq24072---low-battery-behaviour)
-4. [Texas Instruments Forum - BQ24072: About battery discharge of BQ24072](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/647933/bq24072-about-battery-discharge-of-bq24072)
-5. [Texas Instruments Forum - BQ24072: Charger without battery](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/873241/bq24072-charger-without-battery)
-6. [Texas Instruments Forum - BQ24072: Battery removed](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/1407863/bq24072-bq24072---battery-removed)
-7. [Texas Instruments Forum - BQ24074: Safety timer](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/1430800/bq24074-safty-timer)  
-8. [Texas Instruments Forum - BQ24074: Safety timer](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/787195/bq24074-safety-timer)
-9. [Texas Instruments Forum - BQ24072 - Current setting calculations](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/393015/bq24072---current-setting-calculations)
-10. [Texas Instruments Forum - BQ24072: Input current set is 1.5Amps, charging current is set to 0.4A](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/685457/bq24072-input-current-set-is-1-5amps-charging-current-is-set-to-0-4a)
-11. [Texas Instruments Forum - BQ24072: Setting current limit](https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/65275/bq24072---setting-current-limit)
-12. [STMicroelectronics Forum - Power good (PG) pin on LD39100](https://community.st.com/t5/power-management/power-good-pg-pin-on-ld39100/td-p/641594)
-13.                       
+Hardware training platform built around **STM32L431** with:
+- **5 V input** and dual **3.3 V rails** (digital +3V3 and analog +3V3A)
+- **Li-ion charger/power-path** + **fuel gauge**
+- Sensors (I2C/SMBus + SPI), UI peripherals (LCD/7-seg/buzzer), and **CAN**
+
+This repository contains the complete **KiCad 9** hardware design, PDFs/datasheets, and the STM32CubeMX pinout file.
+
+---
+
+## Repository layout
+
+```
+.
+├── LICENSE
+├── README.md
+├── pinout/
+│   └── pinout.ioc
+└── rjx_training_kit/
+    ├── Docs/
+    │   ├── rjx_training_kit.pdf
+    │   ├── (component datasheets and reference PDFs)
+    │   └── links.md
+    ├── Hardware/
+    │   ├── rjx_training_kit.kicad_pro
+    │   ├── rjx_training_kit.kicad_sch
+    │   ├── microcontroller.kicad_sch
+    │   ├── peripherals.kicad_sch
+    │   └── rjx_training_kit.kicad_pcb
+    └── Libs/
+        └── (project libraries)
+```
+
+---
+
+## Quick start
+
+### View / edit hardware (KiCad 9)
+1. Install **KiCad v9** (recommended).
+2. Open the project:
+   - `rjx_training_kit/Hardware/rjx_training_kit.kicad_pro`
+3. Schematic sheets:
+   - Top-level: `rjx_training_kit.kicad_sch`
+   - Sub-sheets: `microcontroller.kicad_sch`, `peripherals.kicad_sch`
+4. PCB layout:
+   - `rjx_training_kit/Hardware/rjx_training_kit.kicad_pcb`
+
+### View pin configuration (STM32CubeMX)
+- Open `pinout/pinout.ioc` in **STM32CubeMX**.
+
+---
+
+## Documentation
+
+### Schematic PDF
+- `rjx_training_kit/Docs/rjx_training_kit.pdf`
+
+### Component datasheets
+Datasheets used by the design are stored in:
+- `rjx_training_kit/Docs/`
+
+### External links
+External forum references and troubleshooting links are maintained here:
+- `rjx_training_kit/Docs/links.md`
+
+---
+
+## Manufacturing outputs (when ready)
+
+When the PCB design is final, generate:
+- **Fabrication**: Gerbers + drill files
+- **Assembly**: BOM + pick-and-place + assembly drawings
+
+Recommended convention (optional):
+- `rjx_training_kit/Outputs/<rev>/Gerbers/`
+- `rjx_training_kit/Outputs/<rev>/Assembly/`
+
+---
+
+## License
+GPL-3.0 (see `LICENSE`).
