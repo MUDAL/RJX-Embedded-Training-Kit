@@ -7312,7 +7312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.244 171.704 90)
 			(effects
 				(font
@@ -7382,7 +7382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 132.3848 53.34 0)
 			(effects
 				(font
@@ -7451,7 +7451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 125.73 177.8 0)
 			(effects
 				(font
@@ -7513,7 +7513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 46.99 41.656 0)
 			(effects
 				(font
@@ -7717,7 +7717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 61.976 153.924 90)
 			(effects
 				(font
@@ -7853,7 +7853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.8648 104.14 0)
 			(effects
 				(font
@@ -8116,7 +8116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x32_P2.54mm_Vertical"
 			(at 124.46 119.38 0)
 			(effects
 				(font
@@ -8276,7 +8276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 101.6 177.8 0)
 			(effects
 				(font
@@ -8339,7 +8339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 60.96 162.56 0)
 			(effects
 				(font
@@ -8817,7 +8817,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.656 158.496 90)
 			(effects
 				(font
@@ -8887,7 +8887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.526 32.766 90)
 			(effects
 				(font
@@ -9022,7 +9022,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.526 49.276 90)
 			(effects
 				(font
@@ -9091,7 +9091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 125.73 185.42 0)
 			(effects
 				(font
@@ -9374,7 +9374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x32_P2.54mm_Vertical"
 			(at 106.68 119.38 0)
 			(effects
 				(font
@@ -9598,7 +9598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 101.6 185.42 0)
 			(effects
 				(font
@@ -9858,7 +9858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 61.2648 104.14 0)
 			(effects
 				(font
@@ -9993,7 +9993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 66.3448 54.61 0)
 			(effects
 				(font
