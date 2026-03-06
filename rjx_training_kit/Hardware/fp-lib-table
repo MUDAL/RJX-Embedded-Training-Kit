@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "LD39200")(type "KiCad")(uri "${KIPRJMOD}/../Libs/LD39200/ld39200_footprints.pretty")(options "")(descr "DFN8 (4 x 4 mm)"))
-)
