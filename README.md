@@ -31,8 +31,8 @@ This repository contains the complete **KiCad 9** hardware design, PDFs/datashee
 2. Open the project:
    - `rjx_training_kit/Hardware/rjx_training_kit.kicad_pro`
 3. Schematic sheets:
-   - Top-level: `rjx_training_kit.kicad_sch`
-   - Sub-sheets: `microcontroller.kicad_sch`, `peripherals.kicad_sch`
+   - Top-level: `rjx_training_kit/Hardware/rjx_training_kit.kicad_sch`
+   - Sub-sheets: `rjx_training_kit/Hardware/microcontroller.kicad_sch`, `rjx_training_kit/Hardware/peripherals.kicad_sch`
 4. PCB layout:
    - `rjx_training_kit/Hardware/rjx_training_kit.kicad_pcb`
 
@@ -52,16 +52,16 @@ Datasheets used by the design are stored in:
 
 ### External links
 External forum references and troubleshooting links are maintained here:
-- `rjx_training_kit/Docs/Links.md`
+- [Links.md](rjx_training_kit/Docs/Links.md)
 
-### Engineering checklists (start here before layout)
+### Engineering checklists
 These short docs capture the decisions that most often cause rework if left until late:
 
-- **Footprint-locking research priorities** (connectors, switches, crystal package, power resistors):
-  `rjx_training_kit/Docs/RJX_Parts_Research_Priorities.md`
+- **Footprint-locking research priorities**  
+  [RJX_Parts_Research_Priorities.md](rjx_training_kit/Docs/RJX_Parts_Research_Priorities.md)
 
-- **BOM metadata checklist** (fields to fill so the BOM is purchasing-ready):
-  `rjx_training_kit/Docs/RJX_BOM_Metadata_Checklist.md`
+- **BOM metadata checklist**  
+  [RJX_BOM_Metadata_Checklist.md](rjx_training_kit/Docs/RJX_BOM_Metadata_Checklist.md)
 
 ---
 
