@@ -11,13 +11,16 @@ This repository contains the complete **KiCad 9** hardware design, PDFs/datashee
 
 ## Repository layout
 
+```text
 .
 ├── README.md
-├── pinout/pinout.ioc
+├── pinout/
+│   └── pinout.ioc
 └── rjx_training_kit/
     ├── Docs/        (schematic PDF, datasheets, links, checklists)
     ├── Hardware/    (KiCad project: schematics + PCB)
     └── Libs/        (project libraries)
+```
 
 ---
 
