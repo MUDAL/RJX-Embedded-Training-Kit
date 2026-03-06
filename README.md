@@ -11,26 +11,13 @@ This repository contains the complete **KiCad 9** hardware design, PDFs/datashee
 
 ## Repository layout
 
-```
 .
-├── LICENSE
 ├── README.md
-├── pinout/
-│   └── pinout.ioc
+├── pinout/pinout.ioc
 └── rjx_training_kit/
-    ├── Docs/
-    │   ├── rjx_training_kit.pdf
-    │   ├── (component datasheets and reference PDFs)
-    │   └── links.md
-    ├── Hardware/
-    │   ├── rjx_training_kit.kicad_pro
-    │   ├── rjx_training_kit.kicad_sch
-    │   ├── microcontroller.kicad_sch
-    │   ├── peripherals.kicad_sch
-    │   └── rjx_training_kit.kicad_pcb
-    └── Libs/
-        └── (project libraries)
-```
+    ├── Docs/        (schematic PDF, datasheets, links, checklists)
+    ├── Hardware/    (KiCad project: schematics + PCB)
+    └── Libs/        (project libraries)
 
 ---
 
@@ -62,7 +49,16 @@ Datasheets used by the design are stored in:
 
 ### External links
 External forum references and troubleshooting links are maintained here:
-- `rjx_training_kit/Docs/links.md`
+- `rjx_training_kit/Docs/Links.md`
+
+### Engineering checklists (start here before layout)
+These short docs capture the decisions that most often cause rework if left until late:
+
+- **Footprint-locking research priorities** (connectors, switches, crystal package, power resistors):
+  `rjx_training_kit/Docs/RJX_Parts_Research_Priorities.md`
+
+- **BOM metadata checklist** (fields to fill so the BOM is purchasing-ready):
+  `rjx_training_kit/Docs/RJX_BOM_Metadata_Checklist.md`
 
 ---
 
