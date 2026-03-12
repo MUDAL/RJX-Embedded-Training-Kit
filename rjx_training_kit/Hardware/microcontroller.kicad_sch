@@ -2700,6 +2700,17 @@
 		)
 		(uuid "97a30047-2c4a-4364-bd2a-6f5706fc2b3d")
 	)
+	(text "CL = 8pF"
+		(exclude_from_sim no)
+		(at 48.514 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99ba4f0b-c4ac-48ba-8089-26193b2d3f49")
+	)
 	(text "SEG_E  (7-Segment)"
 		(exclude_from_sim no)
 		(at 182.626 122.174 0)
@@ -4961,7 +4972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "10pF"
 			(at 67.31 93.98 0)
 			(effects
 				(font
@@ -5165,7 +5176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20pF"
+		(property "Value" "10pF"
 			(at 52.07 93.98 0)
 			(effects
 				(font
