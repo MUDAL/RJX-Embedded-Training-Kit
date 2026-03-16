@@ -25,35 +25,52 @@ Pin mapping is aligned across the **datasheet**, **footprint**, and **schematic 
 ## 2) Battery connector(s) (J4/J5)
 - [x] Confirm connector family: **JST-PH 2.0 mm**
 - [x] Choose exact variant: **right-angle / side-entry THT**
+- [x] Select the exact manufacturer part number: **JST S2B-PH-K-S**
 - [ ] Confirm cable entry direction and strain relief
 - [ ] Confirm polarity marking and mating connector/cable
-- [ ] Select the exact manufacturer part number
-- [ ] Match the PCB footprint to the exact connector variant
+- [x] Match the PCB footprint to the exact connector variant
 - [ ] Verify mechanical: board-edge access, cable clearance, insertion/removal space
 
 **Decision note:**  
-Use a **JST PH series, 2.0 mm pitch, right-angle / side-entry THT** connector for J4/J5.
+Use **JST S2B-PH-K-S**, a **JST PH series, 2.0 mm pitch, right-angle / side-entry THT** connector for J4/J5.
 
 ## 3) Headers (J2/J3) + 2-pin connectors (J6/J7/J8)
-- [ ] Confirm pitch: **2.54 mm**
-- [ ] Decide header style:
-  - [ ] Open pin header
-  - [ ] Boxed/shrouded (keyed) header
-  - [ ] Locking/friction header
-- [ ] Match PCB footprints to the chosen header style(s)
+
+### J2 / J3 main headers
+- [x] Confirm pitch: **2.54 mm**
+- [x] Decide header style: **open pin header**
+- [x] Choose orientation: **vertical THT**
+- [x] Confirm format: **1x32**
+- [ ] Select exact manufacturer part number
+- [x] Match PCB footprint to the chosen header style
 - [ ] Verify mechanical: clearance, accessibility, orientation consistency
+
+**Decision note:**  
+Use **open, vertical, through-hole 1x32, 2.54 mm pin headers** for J2 and J3.
+
+### J6 / J7 / J8 auxiliary connectors
+- [x] Confirm pitch: **2.54 mm**
+- [x] Decide header style: **open pin header**
+- [x] Choose orientation: **vertical THT**
+- [x] Confirm format: **1x02**
+- [ ] Select exact manufacturer part number
+- [x] Match PCB footprint to the chosen header style
+- [ ] Verify mechanical: clearance, accessibility, orientation consistency
+
+**Decision note:**  
+Use **open, vertical, through-hole 1x02, 2.54 mm pin headers** for J6, J7, and J8.
 
 ## 4) Jumpers (JP1–JP4)
 - [x] Decide jumper implementation: **2-pin header + removable shunt**
 - [x] Choose pitch: **2.54 mm**
 - [x] Choose orientation: **vertical THT**
-- [ ] Select the exact header part number
-- [ ] Select the jumper/shunt part number
-- [ ] Match footprints to the chosen header
+- [x] Select the exact header part number: **TE Connectivity 826629-2**
+- [x] Select the jumper/shunt part number: **Würth Elektronik 609002115121**
+- [x] Match footprints to the chosen header
 - [ ] Verify placement for easy access (especially for lab use)
 
 **Decision note:**  
-Use **2-pin, 2.54 mm pitch, vertical THT pin headers with removable shunts** for JP1–JP4.
+Use **TE Connectivity 826629-2** for the 2-pin headers and **Würth Elektronik 609002115121** for the removable shunts.
 
 ## 5) Switches (SW1/SW2)
 - [x] Decide switch type: **surface-mount tactile button**
@@ -63,11 +80,12 @@ Use **2-pin, 2.54 mm pitch, vertical THT pin headers with removable shunts** for
 - [x] Confirm body size: **4.5 mm × 4.5 mm**
 - [x] Confirm actuator height: **7.0 mm**
 - [ ] Confirm user feel is acceptable in the final PCB placement
-- [ ] Match footprint to the exact switch variant
+- [x] Match footprint to the exact switch variant
 - [ ] Verify mechanical: clearance, edge distance, labeling space
 
 **Decision note:**  
-Current selected candidate for **SW1** and **SW2** is **C&K PTS647SM70SMTR2 LFS**, a top-actuated SMT tactile switch with a **4.5 mm × 4.5 mm** body and **7.0 mm** actuator height.
+Use **C&K PTS647SM70SMTR2 LFS**, a top-actuated SMT tactile switch with a **4.5 mm × 4.5 mm** body and **7.0 mm** actuator height.  
+Use the **exact manufacturer land pattern** or a verified equivalent that matches the datasheet dimensions.
 
 ## 6) Crystal (Y1) + load caps (C16/C17)
 - [x] Choose crystal frequency: **8 MHz**
@@ -78,13 +96,13 @@ Current selected candidate for **SW1** and **SW2** is **C&K PTS647SM70SMTR2 LFS*
 - [x] Confirm ESR / oscillator-drive suitability
 - [x] Recalculate C16/C17 based on selected CL and estimated stray capacitance
 - [x] Choose initial load capacitors: **10 pF / 10 pF, C0G/NP0**
-- [ ] Match footprint to the exact crystal package
+- [x] Match footprint to the exact crystal package
 - [ ] Ensure placement rules will be followed (very short traces near MCU)
 
 **Decision note:**  
 Use **ECS-80-8-33B2Q-CVY-TR3**, an **8 MHz, fundamental-mode, SMD 3225 crystal** with **8 pF load capacitance**.  
 Initial design choice for the load capacitors is **C16 = 10 pF** and **C17 = 10 pF**, using **C0G/NP0 dielectric**.  
-These values come from ST’s load-capacitance equation and assume a reasonable small-board stray capacitance estimate.
+Use the **exact ECS footprint** if available, otherwise a verified standard **3225 4-pad crystal footprint**.
 
 ### Why lower-CL crystals are preferred here
 
@@ -128,9 +146,20 @@ For **CL = 8 pF** and a reasonable stray-capacitance estimate of about **3 pF**,
 Prefer an **8 MHz, 3225, low-CL crystal** with acceptable ESR, then calculate **C16/C17** from the selected crystal’s load capacitance rather than copying values from another STM32 board.
 
 ## 7) Power resistors / shunt (R13 = 10 mΩ, R18 = 33 Ω)
+- [x] Confirm initial package direction: **2512**
 - [ ] Confirm worst-case dissipation for R13 (shunt) and R18 (discharge resistor)
-- [ ] Decide package based on power/thermal needs:
-  - [ ] Start with **2512** for margin
-  - [ ] Downsize only if thermal math supports it
-- [ ] Match footprints to chosen packages
+- [ ] Decide whether downsizing is justified by thermal math
+- [x] Match footprints to chosen packages
 - [ ] Plan copper area/thermal spreading around these parts
+
+**Decision note:**  
+Use **2512** as the initial package choice for both **R13 (10 mΩ)** and **R18 (33 Ω)**.  
+Only downsize after confirming dissipation and thermal margin.
+
+## 8) Remaining pre-layout checks
+- [ ] Verify board-edge placement and keepout for J1
+- [ ] Verify cable clearance and insertion/removal space for J4/J5
+- [ ] Verify user access to JP1–JP4 shunts
+- [ ] Verify switch spacing / labeling / accessibility for SW1 and SW2
+- [ ] Verify crystal placement close to MCU with short symmetric traces
+- [ ] Confirm all selected footprints match datasheet mechanical drawings
