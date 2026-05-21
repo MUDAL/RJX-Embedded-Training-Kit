@@ -2038,7 +2038,7 @@
 			(uuid "8944b91b-d886-4cab-bf57-d6a7ae19fd0e")
 		)
 		(embedded_fonts no)
-		(model "../Third_Party/BQ24072TRGTR.STEP"
+		(model "../Libs/BQ24072TRGTR/BQ24072TRGTR.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21815,7 +21815,7 @@
 			(uuid "4d7ed773-e0ad-454f-980c-85ef6050a81f")
 		)
 		(embedded_fonts no)
-		(model "../Third_Party/LD39200DPUR_3DModel.STEP"
+		(model "../Libs/LD39200/ld39200dpur.step"
 			(offset
 				(xyz 0 0 0)
 			)
