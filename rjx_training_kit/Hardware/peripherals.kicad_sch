@@ -15676,7 +15676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Display:WC1602A"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
 			(at 255.27 91.44 0)
 			(effects
 				(font

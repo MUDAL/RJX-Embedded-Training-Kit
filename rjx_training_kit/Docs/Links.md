@@ -45,3 +45,10 @@ This file collects external links (forums, app notes, etc.) so the main README s
 
 12. **ST forum – Power good (PG) pin on LD39100** *(related discussion for PG behavior)*  
     https://community.st.com/t5/power-management/power-good-pg-pin-on-ld39100/td-p/641594
+
+---
+
+## Extra resources  
+
+13. **Electronics StackExchange - Difference between crystal oscillators and resonators**  
+   https://electronics.stackexchange.com/questions/36308/crystals-oscillators-and-resonators-what-the-difference/36321#36321  
