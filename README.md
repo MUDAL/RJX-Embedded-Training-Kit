@@ -72,7 +72,7 @@ External forum references and troubleshooting links are maintained here:
 - [ ] Board setup  
 - [ ] Component placement and routing  
 - [ ] DRC  
-- [ ] Generate manufacturing uutputs and BOM   
+- [ ] Generate manufacturing outputs and BOM   
 - [ ] Place an order for the board on PCBWay  
 - [ ] Preliminary board tests  
 - [ ] Create a basic user guide on how to get started with the board  
