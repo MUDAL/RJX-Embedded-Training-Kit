@@ -1,10 +1,12 @@
-# RJX Training Kit – External Reference Links
+# RJX Training Kit – Datasheets and External Reference Links
 
-This file collects external links (forums, app notes, etc.) so the main README stays concise.
+The `Docs` directory contains datasheets and other relevant technical documentation for the various components of the `RJX Embedded Training Kit` PCB. This README provides external links (forums, app notes, etc.) with additional information to troubleshoot common issues with some of the components on the board.  
 
 ---
 
-## Battery charger (BQ24072/BQ24074) – TI E2E forum threads
+## External References  
+
+### Battery charger (BQ24072/BQ24074) – TI E2E forum threads
 
 1. **Problems in BQ24072**  
    https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/106873/problems-in-bq24072
@@ -41,14 +43,17 @@ This file collects external links (forums, app notes, etc.) so the main README s
 
 ---
 
-## LDO / power-good (PG)
+### LDO / power-good (PG)
 
 12. **ST forum – Power good (PG) pin on LD39100** *(related discussion for PG behavior)*  
     https://community.st.com/t5/power-management/power-good-pg-pin-on-ld39100/td-p/641594
 
 ---
 
-## Extra resources  
+### Extra resources  
 
 13. **Electronics StackExchange - Difference between crystal oscillators and resonators**  
    https://electronics.stackexchange.com/questions/36308/crystals-oscillators-and-resonators-what-the-difference/36321#36321  
+
+14. **Arduino Forum - [SOLVED] Resistor for 16x2 LCD**  
+   https://forum.arduino.cc/t/solved-resistor-for-lcd-16x2/150515  

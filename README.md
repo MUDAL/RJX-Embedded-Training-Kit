@@ -62,7 +62,7 @@ Datasheets used by the design are stored in:
 
 ### External links
 External forum references and troubleshooting links are maintained here:
-- [Links.md](rjx_training_kit/Docs/Links.md)
+- [README.md](rjx_training_kit/Docs/README.md)  
 
 ---
 
