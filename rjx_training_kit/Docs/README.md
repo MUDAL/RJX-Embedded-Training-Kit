@@ -4,6 +4,10 @@ The `Docs` directory contains datasheets and other relevant technical documentat
 
 ---
 
+## Notes  
+
+The I2C addresses in the `rjx_training_kit` schematic are 7-bit addresses.  
+
 ## External References  
 
 ### Battery charger (BQ24072/BQ24074) – TI E2E forum threads
