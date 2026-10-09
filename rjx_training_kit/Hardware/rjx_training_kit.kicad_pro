@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.254,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -135,7 +135,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.254,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -474,7 +474,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -491,7 +491,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.254,
+        "clearance": 0.15,
         "diff_pair_gap": 0.254,
         "diff_pair_width": 0.254,
         "microvia_diameter": 0.3,
@@ -505,7 +505,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.254,
+        "clearance": 0.15,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
@@ -517,7 +517,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.254,
+        "clearance": 0.15,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "I2C",
@@ -529,7 +529,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.254,
+        "clearance": 0.15,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
@@ -541,7 +541,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.254,
+        "clearance": 0.15,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SEG",
@@ -553,7 +553,7 @@
         "via_drill": 0.4
       },
       {
-        "clearance": 0.254,
+        "clearance": 0.15,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SPI",
